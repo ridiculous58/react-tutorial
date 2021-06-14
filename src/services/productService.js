@@ -1,8 +1,12 @@
 import axios from 'axios';
+import ApiConfiguration from './apiConfiguration';
 export default class ProductService{
-    baseUrl = "http://localhost:8080/api";
     getProduct(){
-        return axios.get(`${this.baseUrl}/products/getall`);
+        return axios.get(`${ApiConfiguration.baseApiUrl}/products/getall`);
+    }
+
+    getProductByName(productName){
+        return axios.get(`${ApiConfiguration.baseApiUrl}/products/getByProductName?productName=${productName}`);
     }
 
 }
