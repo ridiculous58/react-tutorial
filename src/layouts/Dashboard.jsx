@@ -5,11 +5,11 @@ import CartDetail from '../pages/CartDetail';
 import ProductDetail from '../pages/ProductDetail';
 import ProductList from '../pages/ProductList';
 import Categories from './Categories';
-import Navi from './Navi';
-
+import {ToastContainer} from 'react-toastify';
 export default function Dashboard() {
     return (
         <div>
+            <ToastContainer position="bottom-right" />
             <Grid>
                 <Grid.Row>
                     <Grid.Column width={4}>
