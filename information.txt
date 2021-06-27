@@ -1,0 +1,9 @@
+formig.org bak (build forms in React without the tears)
+jquense/yup (validation şeması) içindir.
+
+//vs code plugin => auto import ,auto rename tag, bracket pair colorizer,es7 react/redux snippets
+
+// Redux-thunk async programlama için
+
+
+ // !!meta.error '!! ünlem javascriptte metin varsa true donder yoksa false donder karşılıgını verir'
